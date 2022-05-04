@@ -1,13 +1,13 @@
-package br.com.luminaapps.productcatalog;
+package br.com.luminaapps.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductcatalogApplication {
+public class GatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductcatalogApplication.class, args);
+		SpringApplication.run(GatewayApplication.class, args);
 	}
 
 }

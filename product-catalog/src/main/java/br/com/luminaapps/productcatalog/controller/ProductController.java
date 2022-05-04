@@ -18,11 +18,8 @@ import br.com.luminaapps.productcatalog.repository.ProductRepository;
 @RequestMapping("/product")
 public class ProductController {
 	
-	private ProductRepository productRepository;
-	
-	public ProductController() {
-		
-	}
+	private final ProductRepository productRepository;
+
 	
 	public ProductController(ProductRepository productRepository) {
 		this.productRepository=productRepository;
